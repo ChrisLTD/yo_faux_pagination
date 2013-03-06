@@ -1,7 +1,7 @@
 // By Chris Johnson
 // http://chrisltd.com
 // Created February 2013
-// Version .01b
+// Version .02b
 // Run this plugin on a wrapper, optionally define a child object (default's to DIV) to paginate on. This will hide all the subobjects and provide buttons for advancing and backing through them (default's to BUTTONS). You can provide a callback function for when the last object is reached.
 
 (function( $ ){
@@ -63,7 +63,7 @@
           event.preventDefault();
           $(this).parent().parent().hide();
           $('[data-target="' + $(this).data("target-index") + '"]').show();
-          settings.nextCallback();
+          settings.previousCallback();
         });
 
       });
