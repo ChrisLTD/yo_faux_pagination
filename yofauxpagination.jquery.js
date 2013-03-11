@@ -23,7 +23,7 @@
     // Plugin code
     return this.each(function(index, value) {        
 
-      // Find and count child objects
+      // Find and make sure there are child objects before continuing
       var childTotal = $("> " + settings.childObject, this).length;
       if(childTotal == 0){
         return;
