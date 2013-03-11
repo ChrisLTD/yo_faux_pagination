@@ -17,7 +17,7 @@ Simple example
 </div>
 
 <!-- Include JQuery Core above this line -->
-<script src="yofauxpagination.jquery.js"></script>
+<script src="jquery.yofauxpagination.js"></script>
 <script>
 $(".faux_paginate").YoFauxPagination();
 </script>
@@ -38,7 +38,7 @@ Advanced example with callbacks
 </form>
 
 <!-- Include JQuery Core above this line -->
-<script src="yofauxpagination.jquery.js"></script>
+<script src="jquery.yofauxpagination.js"></script>
 <script>
 $(".paginate_form").YoFauxPagination({
   'childObject'         : '.paginate_page',
