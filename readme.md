@@ -21,7 +21,7 @@ Simple example
 <!-- Include JQuery Core above this line -->
 <script src="jquery.yofauxpagination.js"></script>
 <script>
-$(".faux_paginate").YoFauxPagination();
+	$(".faux_paginate").YoFauxPagination();
 </script>
 ```
 
@@ -42,17 +42,17 @@ Advanced example with callbacks
 <!-- Include JQuery Core above this line -->
 <script src="jquery.yofauxpagination.js"></script>
 <script>
-$(".paginate_form").YoFauxPagination({
-  'childObject'         : '.paginate_page',
-  'initCallback' : function(){ $('.paginate_form > [type="submit"]').hide(); }, // Hide submit form
-  'lastCallback' : function(){ $('.paginate_form > [type="submit"]').show(); } 
-});
+	$(".paginate_form").YoFauxPagination({
+		'childObject'         : '.paginate_page',
+		'initCallback' : function(){ $('.paginate_form > [type="submit"]').hide(); }, // Hide submit form
+		'lastCallback' : function(){ $('.paginate_form > [type="submit"]').show(); } 
+	});
 </script>
 ```
 
 ## Options
 ```
-'childObject'         : 'div',            // Target object
+'childObject'	: 'div',            				// Target object
 'buttonType' : 'button',                  // Next and Previous button tag
 'prevText' : 'Previous',                  // Text for the previous button
 'nextText' : 'Next',                      // Text for the next button
