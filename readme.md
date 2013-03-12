@@ -2,6 +2,8 @@
 ## Version .02b
 Yo Faux Pagination is a JQuery plugin that will let you page through a set of page elements by hiding and showing them in order. Just activate the plugin on a wrapper element and it will do the work.
 
+![Example](https://github.com/chrisltd/yo_faux_pagination/raw/master/example.gif)
+
 Yo Faux Pagination will not activate if there is not more than one child object in the target wrapper.
 
 ## Usage Examples
