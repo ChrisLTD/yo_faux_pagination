@@ -2,13 +2,13 @@
 ## Version .02b
 Yo Faux Pagination is a JQuery plugin that will let you page through a set of page elements by hiding and showing them in order. Just activate the plugin on a wrapper element and it will do the work.
 
-![Example](https://github.com/chrisltd/yo_faux_pagination/raw/master/example.gif)
+![Animated Example](https://github.com/chrisltd/yo_faux_pagination/raw/master/example.gif)
 
 Yo Faux Pagination will not activate if there is not more than one child object in the target wrapper.
 
 ## Usage Examples
 Simple example
-```
+```html
 <div class="faux_paginate">
   <div>
     Page 1
@@ -26,7 +26,7 @@ Simple example
 ```
 
 Advanced example with callbacks
-```
+```html
 <form class="paginate_form">
   <div class="paginate_page">
     <label>Input 1</label>
@@ -51,7 +51,7 @@ Advanced example with callbacks
 ```
 
 ## Options
-```
+```js
 'childObject'	: 'div',            				// Target object
 'buttonType' : 'button',                  // Next and Previous button tag
 'prevText' : 'Previous',                  // Text for the previous button
