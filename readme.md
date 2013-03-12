@@ -52,12 +52,12 @@ $(".paginate_form").YoFauxPagination({
 
 ## Options
 ```
-'childObject'         : 'div',                // Target object
+'childObject'         : 'div',            // Target object
 'buttonType' : 'button',                  // Next and Previous button tag
-'prevText' : 'Previous',                     // Text for the previous button
-'nextText' : 'Next',                          // Text for the next button
-'initCallback' : function() {},            // Called if plugin initialized on an object
+'prevText' : 'Previous',                  // Text for the previous button
+'nextText' : 'Next',                      // Text for the next button
+'initCallback' : function() {},           // Called if plugin initialized on an object
 'nextCallback' : function() {},           // Called after the next button is pressed
-'previousCallback' : function() {},     // Called after the previous button is pressed
-'lastCallback' : function() {}              // Called when the user reaches the last "page"
+'previousCallback' : function() {},     	// Called after the previous button is pressed
+'lastCallback' : function() {}            // Called when the user reaches the last "page"
 ```
