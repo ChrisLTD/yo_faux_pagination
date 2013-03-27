@@ -25,7 +25,7 @@
 
       // Find and make sure there are child objects before continuing
       var childTotal = $("> " + settings.childObject, this).length;
-      if(childTotal == 0){
+      if(childTotal <= 1){
         return;
       }
       settings.initCallback();
